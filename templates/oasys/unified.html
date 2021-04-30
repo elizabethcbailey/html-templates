@@ -35,13 +35,16 @@
         #blockColorblindContent{
             display: none;
         }
+        .wrapper{
+            background-image: linear-gradient(134deg,#243d51 0,#0061a0 100%);
+        }
         .screen{
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
             height: 100%;
-            background: #0D83CC url("https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys/mesh-background.svg") repeat right top;
+            background: url("https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys/mesh-background.svg") repeat right top;
             
         }
 
@@ -102,16 +105,18 @@
     <!-- <div id="background_branding_container" data-tenant-branding-background-color="true">
         <img id="background_background_image" data-tenant-branding-background="true" src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys/img/classic_signin_illustration_optimized.png" alt="Illustration" aria-hidden="true" />
     </div> -->
-    <div class="screen">    
-        <div id="panel_center">
-            <div class="inner_container">
-                <div class="api_container normaltext">
-                    <img alt="Company Logo" class="companyLogo" src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys-logo.svg" data-tenant-branding-logo="true" />
-                    <div id="api"></div>
+    <div class="wrapper">
+        <div class="screen">    
+            <div id="panel_center">
+                <div class="inner_container">
+                    <div class="api_container normaltext">
+                        <img alt="Company Logo" class="companyLogo" src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys-logo.svg" data-tenant-branding-logo="true" />
+                        <div id="api"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-</div>    
+        </div>    
+    </div>
     <script>"use strict";$(document).ready(function () { if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var t = document.createElement("style"); t.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}")), t.appendChild(document.createTextNode("@-ms-viewport{height:auto!important}")), document.getElementsByTagName("head")[0].appendChild(t) } if (navigator.userAgent.match(/MSIE 10/i)) { var e = $("#footer_links_container"); $(e).css("padding-top", "100px") } var o, i = $("#background_background_image"), n = function () { document.body.style.overflow = "hidden", ($(window).width() - 500) / $(window).height() < o ? (i.height($(window).height()), i.width("auto")) : (i.width($(window).width() - 500), i.height("auto")), document.body.style.overflow = "" }; $("<img>").attr("src", i.attr("src")).on("load", function () { o = this.width / this.height, n() }), $(window).resize(function () { n() }), "undefined" != typeof $("#MicrosoftAccountExchange") && $("#MicrosoftAccountExchange").text("Microsoft"), $("*").removeAttr("placeholder") });</script>
 </body>
 </html>
