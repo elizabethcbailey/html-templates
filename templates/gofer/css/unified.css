@@ -10,13 +10,15 @@
     border-radius: 4px;
     font-weight: 600;
 }
-#emailVerificationControl_but_send_code :hover{
+#emailVerificationControl_but_send_code:hover{
     background: #b5cae0;
 }
 .helpLink{
     display: none !important;
 }
-
+#newPassword{
+    margin: 8px 0 8px 0;
+}
 .textInput{
     height: 40px;
     border: solid 1px #dddddd;
@@ -39,7 +41,4 @@ input[type=email], input[type=number], input[type=password], input[type=text]{
     border-radius: 4px;
     font-weight: 500;
     color: #1D2E40;
-}
-.attrEntry{
-    margin: 8px 0 0 0;
 }
