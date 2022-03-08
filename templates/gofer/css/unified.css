@@ -9,25 +9,29 @@
     height: 44px;
     border-radius: 4px;
     font-weight: 600;
-    letter-spacing: 1px;
 }
-#emailVerificationControl_but_send_code: :hover{
+#emailVerificationControl_but_send_code :hover{
     background: #b5cae0;
 }
 .helpLink{
     display: none !important;
 }
-input{
+
+.textInput{
     height: 40px;
-    border-radius: solid 1px #dddddd;
+    border: solid 1px #dddddd;
+    border-radius:4px ;
 }
 #continue{
-    width: 50%;
+    width: calc(50% - 24px);
     height: 44px;
-    
+    border-radius: 4px;
+    font-weight: 400;
 }
 #cancel{
-    width: 50%;
     height: 44px;
-
+    width: calc(50% - 24px);
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 400;
 }
