@@ -1,15 +1,33 @@
-.sendCode{
+#emailVerificationControl_but_send_code{
     width: 100%;
-    height: 40px;
     background: white;
     margin: 8px 0 8px 0px;
     border: solid 1px #1D2E40;
     color: #1D2E40;
     background: white;
     border-radius: 4px;
+    height: 44px;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
-
+#emailVerificationControl_but_send_code: :hover{
+    background: #b5cae0;
+}
 .helpLink{
-    display: hidden !important;
+    display: none !important;
 }
+input{
+    height: 40px;
+    border-radius: solid 1px #dddddd;
+}
+#continue{
+    width: 50%;
+    height: 44px;
+    
+}
+#cancel{
+    width: 50%;
+    height: 44px;
 
+}
