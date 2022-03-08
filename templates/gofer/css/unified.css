@@ -22,16 +22,24 @@
     border: solid 1px #dddddd;
     border-radius:4px ;
 }
+input[type=email], input[type=number], input[type=password], input[type=text]{
+    height: 40px;
+}
+
 #continue{
-    width: calc(50% - 24px);
-    height: 44px;
+    width: calc(50% - 8px);
+    height: 40px;
     border-radius: 4px;
-    font-weight: 400;
+    font-weight: 500;
 }
 #cancel{
-    height: 44px;
-    width: calc(50% - 24px);
+    height: 40px;
+    width: calc(50% - 8px);
     background-color: white;
     border-radius: 4px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #1D2E40;
+}
+.attrEntry{
+    margin: 8px 0 0 0;
 }
