@@ -1,0 +1,15 @@
+.sendCode{
+    width: 100%;
+    height: 40px;
+    background: white;
+    margin: 8px 0 8px 0px;
+    border: solid 1px #1D2E40;
+    color: #1D2E40;
+    background: white;
+    border-radius: 4px;
+}
+
+.helpLink{
+    display: hidden !important;
+}
+
