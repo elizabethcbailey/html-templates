@@ -52,4 +52,8 @@ input[type=email], input[type=number], input[type=password], input[type=text]{
     overflow-y: scroll;
 }
 
+.error{
+    color: #E11451;
+}
+
 
