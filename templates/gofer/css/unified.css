@@ -16,13 +16,11 @@
 .helpLink{
     display: none !important;
 }
-#newPassword{
-    margin: 8px 0 8px 0;
-}
 .textInput{
     height: 40px;
     border: solid 1px #dddddd;
     border-radius:4px ;
+    margin: 8px 0 8px 0;
 }
 input[type=email], input[type=number], input[type=password], input[type=text]{
     height: 40px;
@@ -42,3 +40,16 @@ input[type=email], input[type=number], input[type=password], input[type=text]{
     font-weight: 500;
     color: #1D2E40;
 }
+.intro{
+    font-size: 1.1em;
+    color: #424242;
+    font-weight: 600;
+    font-weight: bold;
+}
+#attributeList{
+    height: 208px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
