@@ -1,3 +1,7 @@
+html{
+    background-color: #649D35;
+    background-image: url(https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys/mesh-background.svg);
+}
 #emailVerificationControl_but_send_code{
     width: 100%;
     background: white;
