@@ -46,10 +46,16 @@ input[type=email], input[type=number], input[type=password], input[type=text]{
     font-weight: 600;
     font-weight: bold;
 }
-#attributeList{
-    height: 208px;
-    overflow: hidden;
-    overflow-y: scroll;
+
+#panel_center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width:408px;
+    height: fit-content;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px rgb(0 0 0 20%);
 }
 
 .error{
